@@ -22,9 +22,11 @@ class Column extends React.Component {
     cards: this.props.cards || [],
   }
 
-  static PropTypes = {
-    columns: PropTypes.string.isRequired,
-    cards: PropTypes.array.isRequired,
+  static propTypes = {
+    columns: PropTypes.string,
+    cards: PropTypes.array,
+    title: PropTypes.string,
+    icon: PropTypes.node,
   }
 
   addCard(title) {
@@ -36,9 +38,9 @@ class Column extends React.Component {
             key: state.cards.length ? state.cards[state.cards.length - 1].key + 1 : 0,
             title,
             icon: 'list-alt',
-            cards: []
-          }
-        ]
+            cards: [],
+          },
+        ],
       }
     ));
   }
@@ -60,7 +62,7 @@ class Column extends React.Component {
           <Creator text={settings.cardCreatorText} action={title => this.addCard(title)} />
         </div>
       </section>
-    )
+    );
   }
 }
 
