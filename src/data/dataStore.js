@@ -12,6 +12,16 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  info: {
+    siteTitle: 'Info',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, lorem  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. Duis aute irure dol',
+  },
+  faq: {
+    siteTitle: 'FAQ',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, lorem  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. Duis aute irure dol',
+  },
 };
 
 export const pageContents = {
