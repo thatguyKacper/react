@@ -1,0 +1,17 @@
+
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: stretch;
+
+  .columnLink {
+    display: block;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+  }
+}
